@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://formulae.brew.sh/sitemap.xml
