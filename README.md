@@ -1,8 +1,8 @@
-# Homebrew Formulae
+# LAOS-PKG Formulae
 
-[Homebrew Formulae](https://formulae.brew.sh) is an online package browser for [Homebrew](https://brew.sh).
+[Homebrew Formulae](https://laos-formulae.lusd1.org) is an online package browser for [Homebrew](https://laos.lusd1.org).
 
-It displays all packages in the [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core) and [Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask). A [GitHub Action](https://github.com/Homebrew/formulae.brew.sh/blob/main/.github/workflows/tests.yml) is run periodically which pulls changes from each tap and deploys the site to GitHub Pages.
+It displays all packages in the [Luke-Angel-OS/laospkg-core](https://github.com/Luke-Angel-OS/laospkg-core) and [Luke-Angel-OS/laospkg-cask](https://github.com/Luke-Angel-OS/laospkg-cask). A [GitHub Action](https://github.com/Luke-Angel-OS/laos-formulae.lusd1.org/blob/main/.github/workflows/tests.yml) is run periodically which pulls changes from each tap and deploys the site to GitHub Pages.
 
 ## JSON API
 
@@ -15,16 +15,16 @@ Currently available:
 - List analytics events for all formulae and casks
 - List analytics events for each formula and cask
 
-Read more in the [JSON API documentation](https://formulae.brew.sh/docs/api/).
+Read more in the [JSON API documentation](https://laos-formulae.lusd1.org/docs/api/).
 
 ## Usage
 
-Open <https://formulae.brew.sh/> in your web browser.
+Open <https://laos-formulae.lusd1.org/> in your web browser.
 
 To instead run the site locally, run:
 
 ```bash
-git clone https://github.com/Homebrew/formulae.brew.sh
+git clone https://github.com/Luke-Angel-OS/laos-formulae.lusd1.org
 cd formulae.brew.sh
 brew generate-formula-api
 brew generate-cask-api
